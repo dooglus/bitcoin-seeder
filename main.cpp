@@ -405,7 +405,7 @@ extern "C" void* ThreadSeeder(void*) {
   if (fTestNet){
     db.Add(CService("46.28.204.21", 35714), true);
   } else {
-    db.Add(CService("159.203.5.220", 31174), true);
+    db.Add(CService("46.28.204.21", 31174), true);
   }
   do {
     for (int i=0; seeds[i] != ""; i++) {
